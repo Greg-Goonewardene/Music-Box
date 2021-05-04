@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #7c7c74;
+  transition: all 0.5s ease-in-out;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.musicBox {
+  color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  margin-top: 20px;
+}
+ h1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+.keyboard {
+  position: relative;
+  height: 60vh;
+  width: 100vw;
+  align-items: center;
+  left: 33%;
+}
+
+div #one, #two, #three {
+  width: 80vh;
+  align-items: center;
+  display: flex;
+}
+
+.sound.One, .sound.Two, .sound.Three, .sound.Four, .sound.Five,
+.sound.Six, .sound.Seven, .sound.Eight, .sound.Nine {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #000000;
+}
+
+
+.sound.One {
+  border-top-left-radius: 10px;
+  background: #fa0303;
+  opacity: 60%;
+
+}
+
+.sound.Two {
+  background: #fa8802;
+  opacity: 60%;
+}
+
+.sound.Three {
+  border-top-right-radius: 10px;
+  background: #fff600;
+  opacity: 60%;
+}
+
+.sound.Four {
+  background: #7fff01;
+  opacity: 60%;
+}
+
+.sound.Five {
+  background: #01ff07;
+  opacity: 60%;
+}
+
+.sound.Six {
+  background: #01ff96;
+  opacity: 60%;
+}
+
+.sound.Seven {
+  border-bottom-left-radius: 10px;
+  background: #051cfa;
+  opacity: 60%;
+}
+
+.sound.Eight {
+  background: #cb04fd;
+  opacity: 60%;
+}
+
+.sound.Nine {
+  border-bottom-right-radius: 10px;
+  background: #fa04fd;
+  opacity: 60%;
+}
+
+.sound.One.active {
+  background: #fa0303;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #ffffff;
+  opacity: 100%;
+}
+
+.sound.Two.active {
+  background: #fa8802;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #ffffff;
+  opacity: 100%;
+}
+
+.sound.Three.active {
+  background: #fff600;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #ffffff;
+  opacity: 100%;
+}
+
+.sound.Four.active {
+  background: #7fff01;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #ffffff;
+  opacity: 100%;
+}
+
+.sound.Five.active {
+  background: #01ff07;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #ffffff;
+  opacity: 100%;
+}
+
+.sound.Six.active {
+  background: #01ff96;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #ffffff;
+  opacity: 100%;
+}
+
+.sound.Seven.active {
+  background: #051cfa;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #ffffff;
+  opacity: 100%;
+}
+
+.sound.Eight.active {
+  background: #cb04fd;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #ffffff;
+  opacity: 100%;
+}
+
+.sound.Nine.active {
+  background: #fa04fd;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #ffffff;
+  opacity: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .keyboard {
+    margin-auto;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    left: 20%;
+}
+
+}
